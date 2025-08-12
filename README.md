@@ -61,14 +61,14 @@ Airbnb hosts rely heavily on perfect guest ratings to improve visibility, increa
 
 ---
 
-## 🧠 Reflections
+## Reflections
 
 - With more time, we would have experimented further with neural networks and incorporated richer external data sources.
 - We improved significantly in working with missing values, model evaluation metrics, and iterative tuning strategies.
 
 ---
 
-## 📁 Deliverables
+## Deliverables
 
 - Final model code and predictions
 - Feature engineering scripts
@@ -76,7 +76,7 @@ Airbnb hosts rely heavily on perfect guest ratings to improve visibility, increa
 
 ---
 
-## 📁 Data Access
+## Data Access
 The datasets used in this project are hosted externally due to size constraints on GitHub.
 
 You can access all data files (training features, training labels, test set) at the following Google Drive folder:
