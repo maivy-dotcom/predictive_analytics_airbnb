@@ -8,7 +8,7 @@ We competed in Contest 1, where success was defined by achieving the **highest T
 
 ---
 
-## 🔍 Business Understanding
+## Business Understanding
 
 Airbnb hosts rely heavily on perfect guest ratings to improve visibility, increase booking rates, and justify premium pricing. This project aims to provide hosts, property managers, and the Airbnb platform itself with a predictive model that identifies listings likely to receive perfect reviews — enabling:
 - Personalized insights for hosts to improve listings
@@ -17,7 +17,7 @@ Airbnb hosts rely heavily on perfect guest ratings to improve visibility, increa
 
 ---
 
-## 💡 Project Highlights
+## Project Highlights
 
 - **Model Used**: XGBoost Classifier
 - **Key Features**:
@@ -29,40 +29,31 @@ Airbnb hosts rely heavily on perfect guest ratings to improve visibility, increa
 
 ---
 
-## 🛠️ Project Structure
+## Project Structure
 
 ```plaintext
 .
 ├── data/
 │   ├── airbnb_train_X_2025.csv
 │   ├── airbnb_train_y_2025.csv
-│   ├── airbnb_test_X_2025.csv
-│   └── data_dictionary.xlsx
+│   └── airbnb_test_X_2025.csv
 │
 ├── notebooks/
-│   └── exploratory_analysis.ipynb
-│
-├── scripts/
-│   ├── feature_engineering.py
-│   ├── model_training.py
-│   └── predict_test_set.py
+│   └── Final_Submission_EDA_intialModels.ipynb
+│   └── Final_Submission.ipynb
 │
 ├── report/
 │   └── final_project_report.pdf
 │
 ├── output/
-│   └── final_predictions.csv
+│   └── Submitted_labels.csv
 │
-├── sample_submission/
-│   └── sample_prediction_code.ipynb
-│
-├── README.md
-└── requirements.txt
+└── README.md
 ```
 
 ---
 
-## 🚀 Key Learnings
+## Key Learnings
 
 - **Feature Engineering**: Manually curated features after understanding their business relevance gave better results than automated selection.
 - **Data Cleaning**: Early attention to cleaning and organizing the dataset significantly streamlined the modeling phase.
@@ -82,6 +73,15 @@ Airbnb hosts rely heavily on perfect guest ratings to improve visibility, increa
 - Final model code and predictions
 - Feature engineering scripts
 - Comprehensive report outlining methodology and findings
+
+---
+
+## 📁 Data Access
+The datasets used in this project are hosted externally due to size constraints on GitHub.
+
+You can access all data files (training features, training labels, test set) at the following Google Drive folder:
+
+🔗 Airbnb Project Dataset – Google Drive : https://drive.google.com/drive/u/2/folders/1w3VUcwrBnck-drelujJ_vcaAnFvPdW0j
 
 ---
 
